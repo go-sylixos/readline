@@ -1,4 +1,5 @@
-// +build aix darwin dragonfly freebsd linux,!appengine netbsd openbsd os400 solaris
+//go:build aix || darwin || dragonfly || freebsd || (linux && !appengine) || netbsd || openbsd || os400 || solaris || sylixos
+// +build aix darwin dragonfly freebsd linux,!appengine netbsd openbsd os400 solaris sylixos
 
 package readline
 
